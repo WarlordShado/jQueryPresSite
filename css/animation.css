@@ -1,0 +1,24 @@
+#animateDiv {
+    width:1000px;
+    height:1000px;
+    margin-left:150px;
+    margin-top:50px;
+}
+
+#animatePic {
+    width:250px;
+    height: 250px;;
+    position: relative;
+    animation-name: moveShrek;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-clip: padding-box;
+}
+
+@keyframes moveShrek {
+  0%   {background-color:red; left:0px; top:0px; rotate:0deg; border-radius: 0px;}
+  25%  {background-color:yellow; left:1000px; top:0px; rotate:180deg; border-radius: 80px;}
+  50%  {background-color:blue; left:1000px; top:350px;rotate:360deg; border-radius: 190px;}
+  75%  {background-color:green; left:0px; top:350px;rotate:180deg;border-radius: 80px;}
+  100% {background-color:red; left:0px; top:0px;border-radius: 0px;}
+}
