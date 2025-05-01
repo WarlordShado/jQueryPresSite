@@ -3,3 +3,11 @@
     justify-content: center;
     align-items: center;
 }
+
+#title {
+    font-size:150px;
+    background: -webkit-linear-gradient(purple,pink);
+    background-clip: text;
+    -webkit-text-stroke: 3px violet;
+    -webkit-text-fill-color: transparent;
+}
