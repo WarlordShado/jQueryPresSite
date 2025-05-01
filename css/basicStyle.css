@@ -11,3 +11,10 @@
     -webkit-text-stroke: 3px violet;
     -webkit-text-fill-color: transparent;
 }
+
+#Shrek {
+    margin-top:100px;
+    margin-left:40%;
+    position: fixed;
+    scale:1;
+}
