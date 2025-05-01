@@ -16,9 +16,9 @@
 }
 
 @keyframes moveShrek {
-  0%   {background-color:red; left:0px; top:0px; rotate:0deg; border-radius: 0px;}
+  0%   {background-color:red; left:0px; top:0px; rotate:0deg; border-radius: 5px;}
   25%  {background-color:yellow; left:1000px; top:0px; rotate:180deg; border-radius: 80px;}
   50%  {background-color:blue; left:1000px; top:350px;rotate:360deg; border-radius: 190px;}
   75%  {background-color:green; left:0px; top:350px;rotate:180deg;border-radius: 80px;}
-  100% {background-color:red; left:0px; top:0px;border-radius: 0px;}
+  100% {background-color:red; left:0px; top:0px;border-radius: 5px;}
 }
